@@ -15,7 +15,7 @@ export default function AddHabitForm({ onAddHabit }) {
 
   return (
     <form className="add-habit-form" onSubmit={handleSubmit}>
-      <label htmlFor="habit-name">Add a habit</label>
+      <label htmlFor="habit-name">Add a new habit</label>
       <div className="add-habit-row">
         <input
           id="habit-name"
@@ -26,7 +26,7 @@ export default function AddHabitForm({ onAddHabit }) {
           placeholder="e.g. Drink a glass of water"
           autoComplete="off"
         />
-        <button type="submit">Add</button>
+        <button type="submit">+ Add habit</button>
       </div>
     </form>
   );
